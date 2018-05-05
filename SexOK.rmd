@@ -36,7 +36,7 @@ chisqtestGC(xsex_sex,graph= TRUE)
 
 ```
 
-The p value ios .0351. If the null hypothesis is true you get the result of this 3 percent of the time. The males and females opinion about non marital sex seems the same this is why we reject the null hypothesis.
+The p value is .0351. If the null hypothesis is true you get the result of this 3 percent of the time. The males and females opinion about non marital sex seems the same this is why we reject the null hypothesis.
 
 
 
