@@ -49,6 +49,12 @@ The p value is .0351. If the null hypothesis is true you get the result of this 
 
 
 
+```{r}
+chisqtestGC(xmsex_table,graph= TRUE)
+
+```
+The p value is 
+0.006. If the null hypothesis is true you get the result of this 3 percent of the time. The hooked up and single people opinion about non marital sex seems the same this is why we reject the null hypothesis.
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variables causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
