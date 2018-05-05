@@ -46,6 +46,12 @@ The p value is .0351. If the null hypothesis is true you get the result of this 
 
 ## Relationship status
 
+```{r}
+source("makeTables2016.R")
+barchartGC(xmsex_table,type="percent")
+```
+In the bar chart you can see that people that hooked up are seeing the wrong aspect as about 80%, the hmmm reaction as 80% and are out about it about 60%. 15% of people think it's wrong, about 20% think it's a maybe yes or maybe no, and more than 20% believe it is okay to hook up.This means that people who have hooked up are more open to the idea of relationship status of premartial sex while mostly all singles believe it's not okay.
+
 
 
 
