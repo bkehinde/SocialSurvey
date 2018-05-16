@@ -24,20 +24,6 @@ source("Import_GSS2016_haven.R")
 # Sex
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
-```{r}
-source("makeTables2016.R")
-barchartGC(xsex_sex,type="percent")
-```
-
-In the bar chart you can see that women aren't thrilled on the idea of nonmarital sex. One one side women are about 55 percent against it while males are about 40 percent against it. The next bar you see men not really being against or for the idea of nonmarital sex and women have a lower chance of being indifferent. The next bar women and men are about the same average of being okay with nonmarital sex.
-
-```{r}
-chisqtestGC(xsex_sex,graph= TRUE)
-
-```
-
-The p value is .0351. If the null hypothesis is true you get the result of this 3 percent of the time. The males and females opinion about non marital sex seems the same this is why we reject the null hypothesis.
-
 
 
 # Polyviews
