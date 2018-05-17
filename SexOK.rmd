@@ -21,29 +21,62 @@ source("Import_GSS2016_haven.R")
 
 
 
-# Methods
+# Sex
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
+```{r}
+source("makeTables2016.R")
+barchartGC(xsex_sex,type="percent")
+```
 
-#Results
+In the bar chart you can see that women aren't thrilled on the idea of nonmarital sex. One one side women are about 55 percent against it while males are about 40 percent against it. The next bar you see men not really being against or for the idea of nonmarital sex and women have a lower chance of being indifferent. The next bar women and men are about the same average of being okay with nonmarital sex.
 
-<!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
+```{r}
+chisqtestGC(xsex_sex,graph= TRUE)
 
-## Descriptive Results
+```
 
-### Graphical Descriptive Results
+The p value is .0351. If the null hypothesis is true you get the result of this 3 percent of the time. The males and females opinion about non marital sex seems the same this is why we reject the null hypothesis.
 
-<!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+#Ployviews
 
-### Numerical Descriptive Results
+```{r}
+source("makeTables2016.R")
+barchartGC(xsex_polv,type="percent")
 
-<!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+```
 
-# Inferential Results
+In the bar chart it shows that the liberals find extramarital sex 25 percent wrong, People who are moderate feel it's 39 percent wrong, and Conservatives feel it's 46 percent wrong. Liberals feel indifferent more than 50 percent, People who are moderate feel it's 45 percent indifferent. The conservatives feel it's indifferent is 15 percent. 45 percent of liberals feel it is 15 percent okay, People who are moderate are 35 percent of them believe it's okay, and Conservatives who are 20 percent of them are okay bout extramarital sex.
 
-<!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
+```{r}
+chisqtestGC(xsex_polv,graph= TRUE)
+
+```
+
+The p value is .0351. If the null hypothesis is true you get the result of this 3 percent of the time. The males and females opinion about non marital sex seems the same this is why we reject the null hypothesis. A small p-value (typically ≤ 0.05) indicates strong evidence against the null hypothesis, so we reject the null hypothesis.
+
+
+
+## Relationship status
+
+```{r}
+source("makeTables2016.R")
+barchartGC(xmsex_table,type="percent")
+```
+In the bar chart you can see that people that hooked up are seeing the wrong aspect as about 80%, the hmmm reaction as 80% and are out about it about 60%. 15% of people think it's wrong, about 20% think it's a maybe yes or maybe no, and more than 20% believe it is okay to hook up.This means that people who have hooked up are more open to the idea of relationship status of premartial sex while mostly all singles believe it's not okay.
+
+
+
+
+```{r}
+chisqtestGC(xmsex_table,graph= TRUE)
+
+```
+The p value is 
+0.006. If the null hypothesis is true you get the result of this 3 percent of the time. The hooked up and single people opinion about non marital sex seems the same this is why we reject the null hypothesis.
+
 
 
 # Discussion and Conclusion
 
-<!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variables causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+<!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variables causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!--> These test showed the differncces of each bar graph and the p value. This helped us recognize the ability to identify graphs and p values.
